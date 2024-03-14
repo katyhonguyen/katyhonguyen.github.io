@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://use.typekit.net/pkf7uss.css');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232B23;
+}
+
+#header {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0px;
+}
+
+
+#content {
+	width: 1440px;
+	height: auto;
+	background: #232B23;
+	margin: 0 auto;
+	position: relative;
+}
+
+#navbar {
+    background-color: #38402A;
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-item {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: light;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.navbar-item a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar-item a:visited {
+    color: inherit;
+    text-decoration: none; 
+}
+
+#footer {
+    background-color: #DADADA;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer {
+    background-color: #33412D;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: light;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    font-size: 30px;
+    font-weight: bold;
+    color: #33412D;
+}
+
+#logo {
+    height: 45px;
+    width: 125px;
+}
+
+#icons {
+    height: 20px;
+    width: 20px;
+}
+
+#home {
+	margin-top: 65px;
+	margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.home-heading {
+    font-family: "alga-variable", sans-serif;
+    color: #EC7A58;
+    font-weight: medium;
+    font-size: 50px;
+    font-style: italic; 
+    letter-spacing: 1px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.home-display {
+    padding-top: 42px;
+}
+
+.home-image img {
+    padding-bottom: 70px;
+    width: 1290px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 30px;
+
+}
+
+.home-subheading {
+    color: #fff;
+    font-family: "alga-variable", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+.home-content {
+    padding-bottom: 80px;
+    align-content: space-around;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.beginnings {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color:#fff;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    height: auto;
+    width: 700px;
+    display: inline-block;
+}
+
+.home-subheading img {
+    width: 350px;
+    height: 550px; 
+    padding-top: 150px;
+    border-radius: 30px;
+    box-sizing: content-box; 
+
+}
+
+.bean img{
+    padding-top: 15px;
+    width: 370px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top; 
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.menu {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.menu-row {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+    align-content: space-around;
+    padding-left: 40px;
+    margin-bottom: 350px;
+}
+
+.menu-heading {
+    font-family: "alga-variable", sans-serif;
+    color: white;
+    font-weight: medium;
+    font-size: 50px;
+    font-style: italic; 
+    letter-spacing: 1px;
+    padding-left: 155px;
+    padding-bottom: 50px;
+}
+
+.menu-item {
+    background-color: white;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding: 30px; 
+    border-radius: 5px; 
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 0 auto; 
+    vertical-align: top; 
+    margin-right: 100px;
+}

@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@font-face {
+    font-family: 'Millimetre';
+    src: url('path-to-your-fonts/Millimetre-Regular_web.ttf') format('truetype');
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F7FF;
+}
+
+.next-button {
+    position: fixed;
+    bottom: 87px;
+    right: 118px;
+    width: 131px;
+    height: 32px;
+    padding: 10px 20px;
+    background-color: #BDA7F9;
+    color: #1D1D1D;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.next-button:hover {
+    background-color: #DCD0FF;
+}
+.next-button a:visited {
+    color: #BDA7F9;
+    text-decoration: none; 
+}
+
+.landing-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Millimetre';
+    color: #1D1D1D;
+    font-size: 80px;
+    font-weight: 475;
+    letter-spacing: 1px;
+    padding-top: 70px;
+}
+
+.landing-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.image-wrapper {
+    margin-right: 66px;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.click-start{
+    display: flex;
+    justify-content: center;
+    font-family: 'Millimetre';
+    color: #1D1D1D;
+    font-size: 30px;
+    font-weight: 475;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+
+.click-start:hover a:hover {
+    color: #BDA7F9;
+    text-decoration: underline;
+}
+
+.click-start a:visited {
+    color: #1D1D1D;
+    text-decoration: none; 
+}
+
+.home-heading{
+    font-family: 'Millimetre';
+    color: #1D1D1D;
+    font-size: 40px;
+    font-weight: 475;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 43px;
+    padding-left: 82px;
+}
+
+.home-subheading {
+    align-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'DM Sans', sans-serif;
+    color: #1D1D1D;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 420px;
+    padding-right: 420px;
+}
+
+.home-image {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.home-image a {
+    margin-right: 70px; /* Add space between the links */
+}
+
+.home-image img {
+    height: 201px;
+    margin-right: 300px;
+    transform: transform 0.2s;
+}
+
+.home-image img:hover {
+    transform: scale(1.1);
+}
+
+.home-image img:last-child {
+    margin-right: 0;
+}
+
+.choose-mood{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #1D1D1D;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.spin-image {
+    animation: spin 5s linear forwards;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.message-text{
+    display: flex;
+    padding-left: 82px;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: #1D1D1D;
+    font-size: 30px;
+    font-weight: light;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.happy-background {
+    background-color: #FFF9DB
+}
+
+.happy-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.happy-todo-image {
+    display: flex;
+    padding-left: 82px;
+    margin-top: 60px;
+}
+
+.okay-background {
+    background-color: #E5D0EB
+}
+
+.okay-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.okay-todo-image {
+    display: flex;
+    padding-left: 82px;
+    margin-top: 60px;
+}
+
+
+.sad-background {
+    background-color: #E0E6FD
+}
+
+.sad-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.sad-todo-image {
+    display: flex;
+    padding-left: 82px;
+    margin-top: 60px;
+}
+
+.todo-box {
+    background-color: #FAFAFA;
+    color: #1D1D1D;
+    font-family: 'Millimetre';
+    font-size: 25px;
+    font-weight: medium;
+    text-align: left;
+    padding: 30px; 
+    border-radius: 5px; 
+    width: 270px;
+    height: 390px;
+    position: absolute;
+    top: 70px;
+    right: 118px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 2px 7px rgba(0, 0, 0, 0.01);
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.todo-square {
+    width: 20px;
+    height: 20px;
+    background-color: #DADADA;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.todo-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px; 
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+
+.tips-img {
+    max-width: 20%;
+    height: auto;
+    padding-top: 45px;
+    padding-left: 325px;
+    padding-right: 275px;
+}
+
+.home-button {
+    position: fixed;
+    top: 55px;
+    right: 118px;
+    width: 190px;
+    height: 32px;
+    padding: 10px 20px;
+    background-color: #BDA7F9;
+    color: #1D1D1D;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+    background-color: #DCD0FF;
+}
+.home-button a:visited {
+    color: #BDA7F9;
+    text-decoration: none; 
+}
+
+.stars-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star-float {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    animation: floatAnimation 5s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(100px, -100px);
+    }
+    50% {
+        transform: translate(-100px, 100px);
+    }
+    75% {
+        transform: translate(100px, -100px);
+    }
+    100% {
+        transform: translate(-100px, 100px);
+    }
+}
